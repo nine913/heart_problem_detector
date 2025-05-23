@@ -9,7 +9,7 @@ st.set_page_config(layout="wide",
 model = joblib.load("heart_pipeline.pkl")
 
 
-st.title("Preditor de Doença Cardíaca ❤️")
+st.title("Preditor de Doença Cardíaca")
 st.write("Preencha os dados abaixo para prever a chance de doença cardíaca.")
 
 
