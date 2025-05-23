@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import joblib
 
+st.set_page_config(layout="wide",
+    page_title="Heart Problem Detector",
+    page_icon="❤️")
 
 model = joblib.load("heart_pipeline.pkl")
 
