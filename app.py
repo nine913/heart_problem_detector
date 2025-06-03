@@ -77,3 +77,5 @@ if st.button("Prever"):
         st.error("🚨 Alta probabilidade de doença cardíaca.")
     else:
         st.success("✅ Baixa probabilidade de doença cardíaca.")
+
+st.markdown("Developed by [André](https://github.com/nine913)")
